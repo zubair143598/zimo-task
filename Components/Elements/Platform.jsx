@@ -15,7 +15,7 @@ const Platform = () => {
         </div>
       </div>
       <div className="row ms-4">
-        <div className="col-lg-4 ">
+        <div className="col-lg-4 " style={{marginTop:"13rem"}}>
         <Image src="/zimo-black.png" className="mt-52" width="460" height="50"  />
         <p className="tracking-widest mt-2 fs-2 fw-semibold">
             OUR SOURCE
