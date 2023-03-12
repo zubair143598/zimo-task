@@ -31,7 +31,7 @@ const Categories = () => {
       <p className="fs-2 " >
         OUR CATEGORIES
       </p>
-      <p className="position-absolute d-flex right-5" >
+      <p className="position-absolute d-flex right-5" style={{ right:"5px" }} >
         <span><BsChevronLeft size={50}  /></span>
         <span className="ms-3"><BsChevronRight  size={50} /></span>
       </p>

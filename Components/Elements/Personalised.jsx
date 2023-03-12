@@ -5,7 +5,8 @@ import {TbArrowNarrowRight} from 'react-icons/tb'
 const Personalised = () => {
   return (
     <div className="container-fluid personalised">
-      <div className="row pb-72">
+      <div className="row pb-72" style={{paddingTop: "18rem",
+    paddingBottom: "18rem"}}>
         <div className="col-lg-4">
           <Image
             src="/zimo-logo-white.png"
