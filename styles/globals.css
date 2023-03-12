@@ -1,3 +1,71 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.logo2
+{
+    margin-left: 12rem !important;
+}
+@media screen and (max-width:992px) {
+    .logo2
+    {
+        margin-left: 10px !important;
+    }
+    
+}
+
+.time
+{
+    font-size: 13px;
+}
+.day
+{
+    margin-top: -17px;
+    color: rgb(216, 216, 87);
+}
+
+.shad
+{
+    background-image: url("../public/shad.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.down
+{
+text-align: -webkit-center !important;
+
+}
+
+.personalised
+{
+    background-image: url(../public/lunch3.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Global
+{
+    background-image: url(../public/world-map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.globalRow
+{
+    --bs-gutter-x: 0rem !important;
+}
+
+.Footer
+{
+    background-image: url(../public/lunch2.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
